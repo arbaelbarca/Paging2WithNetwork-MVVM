@@ -1,11 +1,11 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.viewModel
+package com.arba.paginduanetwork.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.*
+import com.arba.paginduanetwork.data.*
 import io.reactivex.disposables.CompositeDisposable
 
 class NewsListViewModel : ViewModel() {
@@ -25,7 +25,6 @@ class NewsListViewModel : ViewModel() {
                 .build()
         newsList = LivePagedListBuilder(newsDataSourceFactory, config).build()
     }
-
 
     fun getState(): LiveData<State> = Transformations.switchMap(
             newsDataSourceFactory.newsDataSourceLiveData,

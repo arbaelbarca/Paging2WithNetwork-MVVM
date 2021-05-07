@@ -1,4 +1,4 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide
+package com.arba.paginduanetwork
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

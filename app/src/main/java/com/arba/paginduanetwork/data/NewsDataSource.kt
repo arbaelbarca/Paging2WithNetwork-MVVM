@@ -1,9 +1,9 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data
+package com.arba.paginduanetwork.data
 
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.DONE
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.ERROR
+import com.arba.paginduanetwork.data.State.DONE
+import com.arba.paginduanetwork.data.State.ERROR
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -17,7 +17,6 @@ class NewsDataSource(
 
     var state: MutableLiveData<State> = MutableLiveData()
     private var retryCompletable: Completable? = null
-
 
     override fun loadInitial(params: LoadInitialParams<Int>, callback: LoadInitialCallback<Int, News>) {
         updateState(State.LOADING)

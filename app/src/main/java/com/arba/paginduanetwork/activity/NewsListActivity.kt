@@ -1,4 +1,4 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.activity
+package com.arba.paginduanetwork.activity
 
 import android.os.Bundle
 import android.view.View.GONE
@@ -6,12 +6,12 @@ import android.view.View.VISIBLE
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.R
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.adapter.NewsListAdapter
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.ERROR
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.LOADING
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.viewModel.NewsListViewModel
+import com.arba.paginduanetwork.R
+import com.arba.paginduanetwork.adapter.NewsListAdapter
+import com.arba.paginduanetwork.data.State
+import com.arba.paginduanetwork.data.State.ERROR
+import com.arba.paginduanetwork.data.State.LOADING
+import com.arba.paginduanetwork.viewModel.NewsListViewModel
 import kotlinx.android.synthetic.main.activity_news_list.*
 
 class NewsListActivity : AppCompatActivity() {

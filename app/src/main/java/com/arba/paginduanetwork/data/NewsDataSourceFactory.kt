@@ -1,4 +1,4 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data
+package com.arba.paginduanetwork.data
 
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource

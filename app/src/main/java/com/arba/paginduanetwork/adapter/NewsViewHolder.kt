@@ -1,11 +1,11 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.adapter
+package com.arba.paginduanetwork.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.R
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.News
+import com.arba.paginduanetwork.R
+import com.arba.paginduanetwork.data.News
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_news.view.*
 

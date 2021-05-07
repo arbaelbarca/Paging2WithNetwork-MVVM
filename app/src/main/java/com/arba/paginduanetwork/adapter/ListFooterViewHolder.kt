@@ -1,4 +1,4 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.adapter
+package com.arba.paginduanetwork.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,10 +6,10 @@ import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.R
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.ERROR
-import com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide.data.State.LOADING
+import com.arba.paginduanetwork.R
+import com.arba.paginduanetwork.data.State
+import com.arba.paginduanetwork.data.State.ERROR
+import com.arba.paginduanetwork.data.State.LOADING
 import kotlinx.android.synthetic.main.item_list_footer.view.*
 
 class ListFooterViewHolder(view: View) : RecyclerView.ViewHolder(view) {

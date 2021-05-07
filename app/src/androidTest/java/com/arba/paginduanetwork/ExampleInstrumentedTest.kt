@@ -1,4 +1,4 @@
-package com.sharmadhiraj.androidpaginglibrarystepbystepimplementationguide
+package com.arba.paginduanetwork
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
