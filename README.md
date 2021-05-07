@@ -1,3 +1,8 @@
-# Android Paging Library Step By Step Implementation Guide
-Please follow this article on medium:
-[Android Paging Library Step By Step Implementation Guide](https://medium.com/@sharmadhiraj.np/android-paging-library-step-by-step-implementation-guide-75417753d9b9)
+# Android Paging 2 Library 
+
+This Project using : 
+
+- MVVM
+- Rxjava Single
+- Paging2
+- Adapter with PagedListAdapter
